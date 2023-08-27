@@ -231,7 +231,7 @@
 
          <!-- Contact form  -->
          <div class="row">
-             <form onsubmit="sendemail(); reset(); return false;">
+             
              <div class="contact-form padd-15">
                  <div class="row">
                      <div class="form-item col-6 padd-15">
@@ -274,27 +274,7 @@
     </div>
 </section>
 
-    <script src =" https://smtpjs.com/v3/smtp.js"> </script>
-    <script> 
-        function sendemail(){
-            Email.send({
-    Host : "smtp.gmail.com",
-    Username : "babulalmourya567@gmail.com",
-    Password : "itm20it56",
-    To : 'babulalmourya567@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "Enquiry",
-    Body : "Name:"+ document.getElementById("email").value
-                +"<br> Email: "+document.getElementById("email").value
-               +"<br> Subject: "+ document.getElementById("email").value
-               +"<br> Message: "+ document.getElementById("email").value
-}).then(
-  message => alert("message sent succesfully")
-);
-        }
-
-    </script>
-
+  
  
     <!-- jquery cdn link  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
