@@ -123,7 +123,7 @@ header{
         background: linear-gradient(to left, #2C5364, #203A43);
     }
 
-    20%
+/*     20%
     {
         background: linear-gradient(to left, #000000, #434343);
     }
@@ -131,9 +131,9 @@ header{
     40%
     {
         background: linear-gradient(to left, #28313b, #485461);
-    }
+    } */
 
-    60%
+/*     60%
     {
         background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
     }
@@ -142,7 +142,7 @@ header{
     {
         background: linear-gradient(to left, #41295a, #2f0743);
     }
-
+ */
     100%
     {
         background: linear-gradient(to left, #141e30, #243b55);
